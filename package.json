@@ -1,15 +1,15 @@
 {
-  "name": "talib.js",
-  "version": "0.1.0",
+  "name": "talib-web",
+  "version": "0.1.1",
   "description": "TA-Lib C code ported to WebAssembly",
   "license": "BSD-3-Clause",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hackape/talib.js.git"
+    "url": "https://github.com/ancheGT/talib-web.git"
   },
-  "bugs": "https://github.com/hackape/talib.js/issues",
-  "homepage": "https://hackape.github.io/talib.js/",
-  "author": "hackape",
+  "bugs": "https://github.com/ancheGT/talib-web/issues",
+  "homepage": "https://ancheGT.github.io/talib-web/",
+  "author": "ancheGT",
   "main": "./lib/index.cjs.js",
   "module": "./lib/index.esm.js",
   "unpkg": "./lib/index.umd.js",

@@ -1,4 +1,4 @@
-const talib = require("talib.js");
+const talib = require("talib-web");
 
 const inReal = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 

@@ -14,7 +14,7 @@ head::before {content:'<head>'} head::after {content:'</head>'}
 title::before {content:'<title>'} title::after {content:'</title>'}
 body::before {content:'<body>'} body::after {content:'</body>\A'}
 script::before {content:'<script>'} script::after {content:'</script>'}
-body > script[src]::before {content:'<script src="https://unpkg.com/talib.js/lib/index.umd.js">'}
+body > script[src]::before {content:'<script src="https://unpkg.com/talib-web/lib/index.umd.js">'}
 style::before {content:'<style>'} style::after {content:'<\/style>'}
 a {display:inline-block} a[href]::before {content: "<a href='"attr(href)"' target='_blank'>"} a::after {content:"</a>"} 
 </style>
@@ -24,7 +24,7 @@ a {display:inline-block} a[href]::before {content: "<a href='"attr(href)"' targe
 # In browser usage, as an HTML <a href='https://en.wikipedia.org/wiki/Quine_(computing)' target='_blank'>quine</a>.
 
 1. Import the script:
-<script src="https://unpkg.com/talib.js/lib/index.umd.js"></script>
+<script src="https://unpkg.com/talib-web/lib/index.umd.js"></script>
 
 2. UMD module exports `TA_LIB` global namespace
    Open the browser console to inspect result.

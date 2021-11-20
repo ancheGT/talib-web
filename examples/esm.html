@@ -8,8 +8,8 @@
 </head>
 <body>
   <script type="module">
-    import { init, ADD } from "https://unpkg.com/talib.js@0.1.0/lib/index.esm.js"
-    await init("https://unpkg.com/talib.js@0.1.0/lib/talib.wasm");
+    import { init, ADD } from "https://unpkg.com/talib-web@0.1.0/lib/index.esm.js"
+    await init("https://unpkg.com/talib-web@0.1.0/lib/talib.wasm");
     
     const inReal = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
     console.log('talib.ADD result:', ADD({ inReal0: inReal, inReal1: inReal }));

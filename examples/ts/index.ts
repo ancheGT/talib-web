@@ -1,4 +1,4 @@
-import { init, ADD } from "talib.js";
+import { init, ADD } from "talib-web";
 
 async function main() {
   await init();

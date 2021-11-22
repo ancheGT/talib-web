@@ -150,5 +150,5 @@ package-lock.json
 
 *.bak
 .temp/
-lib/
+# lib/
 docs/
